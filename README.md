@@ -12,3 +12,4 @@ ngrok version : 3.0.7 installed via choco : 1.1.0
 updated to : 3.1.0 (15/9/22)
  
 Bot Authentication Token : 5788222546:AAGlwyvaTp4IDfkRE7_6eZ554UirVaoET4w
+https://api.telegram.org/bot5788222546:AAGlwyvaTp4IDfkRE7_6eZ554UirVaoET4w/setWebhook?url=<Ngrok Forwarding URL>
