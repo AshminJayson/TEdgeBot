@@ -1,2 +1,2 @@
 # TEdgeBot
-Chatbot Designed for use in Telegram
+Telegram Chatbot
