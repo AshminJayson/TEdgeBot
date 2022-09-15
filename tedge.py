@@ -3,7 +3,7 @@ from flask import request #For recieving ChatBot POST and GET Requests
 from flask import Response #To return Response to Bot
 import requests #For messaging passing through Telegram Bot API
 
-TOKEN = "5788222546:AAGlwyvaTp4IDfkRE7_6eZ554UirVaoET4w"
+TOKEN = "5788222546:AAEF4VgA6wQw1IBt3Vh66gODwJG-kcCHF7I"
 
 def parseMessage(message) :
     # print("Message -> ", message)
