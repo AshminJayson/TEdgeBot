@@ -1,7 +1,7 @@
-from flask import Flask
-from flask import request
-from flask import Response
-import requests
+from flask import Flask #For defining Web Application
+from flask import request #For recieving ChatBot POST and GET Requests
+from flask import Response #To return Response to Bot
+import requests #For messaging passing through Telegram Bot API
 
 app = Flask(__name__)
 
