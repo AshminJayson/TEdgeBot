@@ -1,5 +1,4 @@
 # TEdgeBot Documentation
-Telegram Chatbot
 
 Tutorial Link : 
 https://www.pragnakalp.com/create-telegram-bot-using-python-tutorial-with-examples/
@@ -15,4 +14,9 @@ Bot Authentication Token : 5788222546:AAEF4VgA6wQw1IBt3Vh66gODwJG-kcCHF7I
 Webhook Linking URL : https://api.telegram.org/bot5788222546:AAEF4VgA6wQw1IBt3Vh66gODwJG-kcCHF7I/setWebhook?url=<"Ngrok Forwarding URL">
 
 Additional References : 
+
+        Flask : https://www.digitalocean.com/community/tutorials/how-to-create-your-first-web-application-using-flask-and-python-3
+
+        Deployment : https://docs.digitalocean.com/tutorials/app-deploy-flask-app/
+
 
