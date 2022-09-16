@@ -17,6 +17,8 @@ Additional References :
 
         Flask : https://www.digitalocean.com/community/tutorials/how-to-create-your-first-web-application-using-flask-and-python-3
 
+        https://flask.palletsprojects.com/en/2.2.x/quickstart/
+
         Deployment : https://docs.digitalocean.com/tutorials/app-deploy-flask-app/
 
 
