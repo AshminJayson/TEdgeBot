@@ -3,7 +3,7 @@ import telebot #Import PyTeleBotAPI
 
 
 TOKEN = "5788222546:AAEF4VgA6wQw1IBt3Vh66gODwJG-kcCHF7I"
-URL = "https://7a72-103-183-83-106.in.ngrok.io/"
+URL = "https://1a09-103-183-83-106.in.ngrok.io/"
 
 bot = telebot.TeleBot(TOKEN, threaded = False)
 
@@ -22,19 +22,27 @@ def index() :
         return ''
     else:
         flask.abort(403)
-    
-
-#Handle all messages
-@bot.message_handler(content_types=['text'])
-def handle_start_help(message):
-    bot.send_message(message.chat.id, "You've sent me a text message")
-
-
 
 #Set Webhook
 def setWebhook() : 
     bot.remove_webhook()
     bot.set_webhook(url = URL)
+
+
+#Handle commands
+@bot.message_handler(commands = ['start', 'help'])
+def startHandler(message) : 
+    if message.text == "/start" : 
+        bot.send_message(message.chat.id, "----")
+    elif message.text == '/help' : 
+        bot.send_message(message.chat.id, "++++")
+
+
+#Handle generic text messages
+@bot.message_handler(content_types=['text'])
+def handle_start_help(message):
+    bot.send_message(message.chat.id, "You've sent me a text message")
+
 
 if __name__ == '__main__':
     setWebhook()
