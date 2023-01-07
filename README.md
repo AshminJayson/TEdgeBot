@@ -1,5 +1,7 @@
 # TEdgeBot Documentation
 
+Repo looking to serve as a starting point for anyone trying to build a telegram chatbot
+
 Tutorial Link : 
 https://www.pragnakalp.com/create-telegram-bot-using-python-tutorial-with-examples/
 
